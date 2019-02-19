@@ -71,7 +71,7 @@ def player_by_number(num)
   game_hash.find do |location, teamdata|
     teamdata[:players].find do |player|
       player[:number] == num
-    return 
+    return [:player][play_name]
   #return players name as a string
 end
 
